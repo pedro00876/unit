@@ -1,0 +1,137 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 0 10px rgb(56, 52, 52);
+    color: white;
+    background-color: black;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+header img{
+    width: 200px;
+    height: 80px;
+}
+
+#register{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+/*Parte principal e inicial da tela*/
+.suporte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.suporte h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.655);
+    font-weight: lighter;
+}
+
+.imagens{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 62px;
+}
+
+.suporte figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.imagens figure > button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(45, 44, 44, 0.462);
+    background-color: #333;
+    color: white;
+}
+
+/*Designer da section de benéficios */
+
+.beneficios_fidelidade{
+    background-color: black;
+    color: white;
+    padding: 90px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 80px;
+}
+
+.beneficios_fidelidade h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.beneficios_fidelidade button{
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+/*Arrumando o footer*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.whats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.whats button{
+    background-color: white;
+    border-radius: 40%; 
+    border: 1px solid rgba(42, 40, 40, 0.129);
+    cursor: pointer;
+}
+
+.whats .fa-whatsapp{
+   font-size: 40px;
+    padding: 10px;
+}
+
